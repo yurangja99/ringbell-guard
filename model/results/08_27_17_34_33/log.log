@@ -1,0 +1,55 @@
+Generator Config
+	Width shift range: 0.1
+	Height shift range: 0.1
+	Rotation range: 10
+	Horizontal flip: True
+	Shuffle: True
+Model Config
+	Input size: (72, 88, 3)
+	Dropout rate: 0.1
+	Weights: None
+Training Config
+	Epochs: 100
+	Batch size: 32
+	Steps per epoch (train): None
+	Steps per epoch (val): None
+Testing Config
+	Threshold: 0.5
+Other Config
+	Using GPU: True
+Assets written to: C:\Users\NamSaeng\Documents\Arduino\ringbell-guard\model\results\08_27_17_34_33\model\assets
+Result
+	accuracy: 93.00000071525574%
+	Examples
+		y: [1.], pred: [0.9280105], equal: [ True]
+		y: [0.], pred: [0.97192323], equal: [False]
+		y: [0.], pred: [0.00023866], equal: [ True]
+		y: [1.], pred: [0.9820962], equal: [ True]
+		y: [1.], pred: [0.9998258], equal: [ True]
+		y: [0.], pred: [0.05233854], equal: [ True]
+		y: [0.], pred: [0.01033744], equal: [ True]
+		y: [1.], pred: [0.97407407], equal: [ True]
+		y: [0.], pred: [0.11594573], equal: [ True]
+		y: [1.], pred: [0.9974571], equal: [ True]
+		y: [1.], pred: [0.9963406], equal: [ True]
+		y: [1.], pred: [0.9949169], equal: [ True]
+		y: [1.], pred: [0.91154927], equal: [ True]
+		y: [0.], pred: [0.02612837], equal: [ True]
+		y: [0.], pred: [0.15233156], equal: [ True]
+		y: [0.], pred: [0.01191384], equal: [ True]
+		y: [0.], pred: [0.0037306], equal: [ True]
+		y: [1.], pred: [0.68671316], equal: [ True]
+		y: [1.], pred: [0.84565955], equal: [ True]
+		y: [1.], pred: [0.99341005], equal: [ True]
+		y: [0.], pred: [0.20381397], equal: [ True]
+		y: [1.], pred: [0.87015706], equal: [ True]
+		y: [1.], pred: [0.97531587], equal: [ True]
+		y: [1.], pred: [0.18896282], equal: [False]
+		y: [0.], pred: [0.65785813], equal: [False]
+		y: [1.], pred: [0.9954957], equal: [ True]
+		y: [0.], pred: [0.00068161], equal: [ True]
+		y: [0.], pred: [0.00174321], equal: [ True]
+		y: [0.], pred: [0.07538272], equal: [ True]
+		y: [1.], pred: [0.99550927], equal: [ True]
+		y: [0.], pred: [0.00225946], equal: [ True]
+		y: [1.], pred: [0.97714204], equal: [ True]
