@@ -3,5 +3,7 @@
 ## - Kookmin Univ. 이상헌 교수님 수업 자료 이용하여 Classification 함수 보완
 
 !echo "const unsigned char model[] = {" > /model.h
+
 !cat gesture_model.tflite | xxd -i      >> /model.h
+
 !echo "};"                              >> /model.h
